@@ -13,7 +13,7 @@ attr_reader :fuel
 
 
   def distance
-    0
+    @fuel * MILES_PER_GALLON
   end
 end
 car = Car.new
